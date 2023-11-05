@@ -549,11 +549,11 @@ Array.from(document.querySelectorAll('.subpins')).forEach(item => item.addEventL
   console.log(item.id);
   console.log(item.style)
   if(statepinTable[item.id] == 0){
-    item.style.backgroundColor = 'red'
+    item.style.backgroundColor = 'red';
     statepinTable[item.id] = 1 ;
   }
   else if(statepinTable[item.id] == 1){
-    item.style.backgroundColor = 'blue'
+    item.style.backgroundColor = 'blue';
     statepinTable[item.id] = 0 ;
   }
 }))
